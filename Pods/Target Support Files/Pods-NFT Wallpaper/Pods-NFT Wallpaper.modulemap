@@ -1,0 +1,6 @@
+framework module Pods_NFT_Wallpaper {
+  umbrella header "Pods-NFT Wallpaper-umbrella.h"
+
+  export *
+  module * { export * }
+}

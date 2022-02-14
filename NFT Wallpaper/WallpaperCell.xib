@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="WallpaperCell" id="gTV-IL-0wX" customClass="WallpaperCell" customModule="NFT_Wallpaper" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="182" height="258"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="182" height="258"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wan-0q-xpW">
+                        <rect key="frame" x="0.0" y="0.0" width="182" height="258"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2DR-Sj-fo6">
+                                <rect key="frame" x="5" y="5" width="172" height="248"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SwC-L5-Dtx">
+                                <rect key="frame" x="72.5" y="232" width="37.5" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BEK-2L-ZvT">
+                                <rect key="frame" x="72.5" y="206" width="37.5" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="2DR-Sj-fo6" secondAttribute="trailing" constant="5" id="4QE-8D-iFT"/>
+                            <constraint firstItem="BEK-2L-ZvT" firstAttribute="centerX" secondItem="2DR-Sj-fo6" secondAttribute="centerX" id="8yp-yh-NEa"/>
+                            <constraint firstItem="2DR-Sj-fo6" firstAttribute="top" secondItem="Wan-0q-xpW" secondAttribute="top" constant="5" id="DKg-um-8KJ"/>
+                            <constraint firstAttribute="bottom" secondItem="SwC-L5-Dtx" secondAttribute="bottom" constant="8" id="GQ6-I5-TPD"/>
+                            <constraint firstAttribute="bottom" secondItem="2DR-Sj-fo6" secondAttribute="bottom" constant="5" id="GsY-GE-TEG"/>
+                            <constraint firstItem="SwC-L5-Dtx" firstAttribute="top" secondItem="BEK-2L-ZvT" secondAttribute="bottom" constant="8" symbolic="YES" id="Has-mE-J2c"/>
+                            <constraint firstItem="SwC-L5-Dtx" firstAttribute="centerX" secondItem="BEK-2L-ZvT" secondAttribute="centerX" id="VPT-xI-cic"/>
+                            <constraint firstItem="2DR-Sj-fo6" firstAttribute="leading" secondItem="Wan-0q-xpW" secondAttribute="leading" constant="5" id="Yn9-5d-jL1"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Wan-0q-xpW" secondAttribute="bottom" id="7i4-mA-nRu"/>
+                <constraint firstItem="Wan-0q-xpW" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Ehk-NM-FZn"/>
+                <constraint firstItem="Wan-0q-xpW" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="MsB-zT-YZZ"/>
+                <constraint firstAttribute="trailing" secondItem="Wan-0q-xpW" secondAttribute="trailing" id="cZt-S8-uU8"/>
+            </constraints>
+            <size key="customSize" width="182" height="258"/>
+            <connections>
+                <outlet property="anime" destination="2DR-Sj-fo6" id="2yF-VU-6aE"/>
+                <outlet property="backView" destination="Wan-0q-xpW" id="udN-kr-pzI"/>
+                <outlet property="name" destination="BEK-2L-ZvT" id="Shc-VV-K7B"/>
+                <outlet property="time" destination="SwC-L5-Dtx" id="dAD-cR-lUe"/>
+            </connections>
+            <point key="canvasLocation" x="136.23188405797103" y="160.04464285714286"/>
+        </collectionViewCell>
+    </objects>
+</document>

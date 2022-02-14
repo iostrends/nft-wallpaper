@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0443F44027B8E3B600E6C516 /* WallpaperVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443F43F27B8E3B600E6C516 /* WallpaperVC.swift */; };
+		0443F44327B8EBE600E6C516 /* WallpaperCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443F44127B8EBE600E6C516 /* WallpaperCell.swift */; };
+		0443F44427B8EBE600E6C516 /* WallpaperCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0443F44227B8EBE600E6C516 /* WallpaperCell.xib */; };
+		0443F44627B8F6D500E6C516 /* PreviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443F44527B8F6D500E6C516 /* PreviewVC.swift */; };
+		0443F44827B9138200E6C516 /* hourglasstimer_lottiejosn.json in Resources */ = {isa = PBXBuildFile; fileRef = 0443F44727B9138200E6C516 /* hourglasstimer_lottiejosn.json */; };
+		0443F44A27B9138900E6C516 /* clock_nobg_lottiejosn.json in Resources */ = {isa = PBXBuildFile; fileRef = 0443F44927B9138900E6C516 /* clock_nobg_lottiejosn.json */; };
+		0443F44C27B91EAD00E6C516 /* AnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443F44B27B91EAD00E6C516 /* AnimationVC.swift */; };
+		04C13D0127B843AD00012064 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C13D0027B843AD00012064 /* AppDelegate.swift */; };
+		04C13D0327B843AD00012064 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C13D0227B843AD00012064 /* SceneDelegate.swift */; };
+		04C13D0527B843AD00012064 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C13D0427B843AD00012064 /* ViewController.swift */; };
+		04C13D0827B843AD00012064 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C13D0627B843AD00012064 /* Main.storyboard */; };
+		04C13D0A27B843AE00012064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C13D0927B843AE00012064 /* Assets.xcassets */; };
+		04C13D0D27B843AE00012064 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C13D0B27B843AE00012064 /* LaunchScreen.storyboard */; };
+		6262D765E595BF71D0CFD0A1 /* Pods_NFT_Wallpaper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1C622F7E461BCB6E5493B5D /* Pods_NFT_Wallpaper.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0443F43F27B8E3B600E6C516 /* WallpaperVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperVC.swift; sourceTree = "<group>"; };
+		0443F44127B8EBE600E6C516 /* WallpaperCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperCell.swift; sourceTree = "<group>"; };
+		0443F44227B8EBE600E6C516 /* WallpaperCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WallpaperCell.xib; sourceTree = "<group>"; };
+		0443F44527B8F6D500E6C516 /* PreviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewVC.swift; sourceTree = "<group>"; };
+		0443F44727B9138200E6C516 /* hourglasstimer_lottiejosn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hourglasstimer_lottiejosn.json; sourceTree = "<group>"; };
+		0443F44927B9138900E6C516 /* clock_nobg_lottiejosn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = clock_nobg_lottiejosn.json; sourceTree = "<group>"; };
+		0443F44B27B91EAD00E6C516 /* AnimationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationVC.swift; sourceTree = "<group>"; };
+		04C13CFD27B843AD00012064 /* NFT Wallpaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NFT Wallpaper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04C13D0027B843AD00012064 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04C13D0227B843AD00012064 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		04C13D0427B843AD00012064 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04C13D0727B843AD00012064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04C13D0927B843AE00012064 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04C13D0C27B843AE00012064 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04C13D0E27B843AE00012064 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		836D92BB7DA170F16127D3BF /* Pods-NFT Wallpaper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFT Wallpaper.release.xcconfig"; path = "Target Support Files/Pods-NFT Wallpaper/Pods-NFT Wallpaper.release.xcconfig"; sourceTree = "<group>"; };
+		C0420A923D14244C85BDC0E9 /* Pods-NFT Wallpaper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NFT Wallpaper.debug.xcconfig"; path = "Target Support Files/Pods-NFT Wallpaper/Pods-NFT Wallpaper.debug.xcconfig"; sourceTree = "<group>"; };
+		D1C622F7E461BCB6E5493B5D /* Pods_NFT_Wallpaper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NFT_Wallpaper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04C13CFA27B843AD00012064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6262D765E595BF71D0CFD0A1 /* Pods_NFT_Wallpaper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04C13CF427B843AD00012064 = {
+			isa = PBXGroup;
+			children = (
+				04C13CFF27B843AD00012064 /* NFT Wallpaper */,
+				04C13CFE27B843AD00012064 /* Products */,
+				BC9AED1B8B693B19F9BDD234 /* Pods */,
+				3440EC373569E68DF4EC33DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04C13CFE27B843AD00012064 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04C13CFD27B843AD00012064 /* NFT Wallpaper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04C13CFF27B843AD00012064 /* NFT Wallpaper */ = {
+			isa = PBXGroup;
+			children = (
+				0443F44727B9138200E6C516 /* hourglasstimer_lottiejosn.json */,
+				0443F44927B9138900E6C516 /* clock_nobg_lottiejosn.json */,
+				04C13D0027B843AD00012064 /* AppDelegate.swift */,
+				04C13D0227B843AD00012064 /* SceneDelegate.swift */,
+				04C13D0427B843AD00012064 /* ViewController.swift */,
+				04C13D0627B843AD00012064 /* Main.storyboard */,
+				04C13D0927B843AE00012064 /* Assets.xcassets */,
+				04C13D0B27B843AE00012064 /* LaunchScreen.storyboard */,
+				04C13D0E27B843AE00012064 /* Info.plist */,
+				0443F43F27B8E3B600E6C516 /* WallpaperVC.swift */,
+				0443F44127B8EBE600E6C516 /* WallpaperCell.swift */,
+				0443F44227B8EBE600E6C516 /* WallpaperCell.xib */,
+				0443F44527B8F6D500E6C516 /* PreviewVC.swift */,
+				0443F44B27B91EAD00E6C516 /* AnimationVC.swift */,
+			);
+			path = "NFT Wallpaper";
+			sourceTree = "<group>";
+		};
+		3440EC373569E68DF4EC33DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1C622F7E461BCB6E5493B5D /* Pods_NFT_Wallpaper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC9AED1B8B693B19F9BDD234 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0420A923D14244C85BDC0E9 /* Pods-NFT Wallpaper.debug.xcconfig */,
+				836D92BB7DA170F16127D3BF /* Pods-NFT Wallpaper.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04C13CFC27B843AD00012064 /* NFT Wallpaper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04C13D1127B843AE00012064 /* Build configuration list for PBXNativeTarget "NFT Wallpaper" */;
+			buildPhases = (
+				D50C06A169D020DEF8646FB1 /* [CP] Check Pods Manifest.lock */,
+				04C13CF927B843AD00012064 /* Sources */,
+				04C13CFA27B843AD00012064 /* Frameworks */,
+				04C13CFB27B843AD00012064 /* Resources */,
+				CD1D376778151219B631F1B9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NFT Wallpaper";
+			productName = "NFT Wallpaper";
+			productReference = 04C13CFD27B843AD00012064 /* NFT Wallpaper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04C13CF527B843AD00012064 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					04C13CFC27B843AD00012064 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 04C13CF827B843AD00012064 /* Build configuration list for PBXProject "NFT Wallpaper" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04C13CF427B843AD00012064;
+			productRefGroup = 04C13CFE27B843AD00012064 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04C13CFC27B843AD00012064 /* NFT Wallpaper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04C13CFB27B843AD00012064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04C13D0D27B843AE00012064 /* LaunchScreen.storyboard in Resources */,
+				04C13D0A27B843AE00012064 /* Assets.xcassets in Resources */,
+				0443F44427B8EBE600E6C516 /* WallpaperCell.xib in Resources */,
+				0443F44A27B9138900E6C516 /* clock_nobg_lottiejosn.json in Resources */,
+				04C13D0827B843AD00012064 /* Main.storyboard in Resources */,
+				0443F44827B9138200E6C516 /* hourglasstimer_lottiejosn.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CD1D376778151219B631F1B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NFT Wallpaper/Pods-NFT Wallpaper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NFT Wallpaper/Pods-NFT Wallpaper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NFT Wallpaper/Pods-NFT Wallpaper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D50C06A169D020DEF8646FB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NFT Wallpaper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04C13CF927B843AD00012064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0443F44327B8EBE600E6C516 /* WallpaperCell.swift in Sources */,
+				0443F44627B8F6D500E6C516 /* PreviewVC.swift in Sources */,
+				04C13D0527B843AD00012064 /* ViewController.swift in Sources */,
+				0443F44027B8E3B600E6C516 /* WallpaperVC.swift in Sources */,
+				0443F44C27B91EAD00E6C516 /* AnimationVC.swift in Sources */,
+				04C13D0127B843AD00012064 /* AppDelegate.swift in Sources */,
+				04C13D0327B843AD00012064 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04C13D0627B843AD00012064 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C13D0727B843AD00012064 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04C13D0B27B843AE00012064 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04C13D0C27B843AE00012064 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04C13D0F27B843AE00012064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04C13D1027B843AE00012064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04C13D1227B843AE00012064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0420A923D14244C85BDC0E9 /* Pods-NFT Wallpaper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NFT Wallpaper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alsofttech.NFT-Wallpaper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04C13D1327B843AE00012064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 836D92BB7DA170F16127D3BF /* Pods-NFT Wallpaper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "NFT Wallpaper/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alsofttech.NFT-Wallpaper";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04C13CF827B843AD00012064 /* Build configuration list for PBXProject "NFT Wallpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C13D0F27B843AE00012064 /* Debug */,
+				04C13D1027B843AE00012064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04C13D1127B843AE00012064 /* Build configuration list for PBXNativeTarget "NFT Wallpaper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C13D1227B843AE00012064 /* Debug */,
+				04C13D1327B843AE00012064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04C13CF527B843AD00012064 /* Project object */;
+}

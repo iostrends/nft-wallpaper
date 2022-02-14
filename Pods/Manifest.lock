@@ -1,0 +1,28 @@
+PODS:
+  - IQKeyboardManagerSwift (6.5.9)
+  - lottie-ios (3.3.0)
+  - MBProgressHUD (1.2.0)
+  - Toast-Swift (5.0.1)
+
+DEPENDENCIES:
+  - IQKeyboardManagerSwift
+  - lottie-ios
+  - MBProgressHUD (~> 1.2.0)
+  - Toast-Swift (~> 5.0.1)
+
+SPEC REPOS:
+  trunk:
+    - IQKeyboardManagerSwift
+    - lottie-ios
+    - MBProgressHUD
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
+  lottie-ios: 6ac74dcc09904798f59b18cb3075c089d76be9ae
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+
+PODFILE CHECKSUM: 9eb96ece517d3153977c09da14af8c32a2a975cb
+
+COCOAPODS: 1.11.0
